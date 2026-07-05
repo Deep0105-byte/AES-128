@@ -1,0 +1,141 @@
+KEY: 000102030405060708090a0b0c0d0e0f
+PLAINTEXT: 00112233445566778899aabbccddeeff
+
+--- KEY SCHEDULE ---
+RoundKey[0]: 000102030405060708090a0b0c0d0e0f
+RoundKey[1]: d6aa74fdd2af72fadaa678f1d6ab76fe
+RoundKey[2]: b692cf0b643dbdf1be9bc5006830b3fe
+RoundKey[3]: b6ff744ed2c2c9bf6c590cbf0469bf41
+RoundKey[4]: 47f7f7bc95353e03f96c32bcfd058dfd
+RoundKey[5]: 3caaa3e8a99f9deb50f3af57adf622aa
+RoundKey[6]: 5e390f7df7a69296a7553dc10aa31f6b
+RoundKey[7]: 14f9701ae35fe28c440adf4d4ea9c026
+RoundKey[8]: 47438735a41c65b9e016baf4aebf7ad2
+RoundKey[9]: 549932d1f08557681093ed9cbe2c974e
+RoundKey[10]: 13111d7fe3944a17f307a78b4d2b30c5
+
+--- ENCRYPTION START ---
+Round 0 Start (Plaintext): 00112233445566778899aabbccddeeff
+Round 0 End (Post AddRoundKey): 00102030405060708090a0b0c0d0e0f0
+
+Round 1 Start: 00102030405060708090a0b0c0d0e0f0
+Round 1 Post SubBytes: 63cab7040953d051cd60e0e7ba70e18c
+Round 1 Post ShiftRows: 6353e08c0960e104cd70b751bacad0e7
+Round 1 Post MixColumns: 5f72641557f5bc92f7be3b291db9f91a
+Round 1 Post AddRoundKey (End): 89d810e8855ace682d1843d8cb128fe4
+
+Round 2 Start: 89d810e8855ace682d1843d8cb128fe4
+Round 2 Post SubBytes: a761ca9b97be8b45d8ad1a611fc97369
+Round 2 Post ShiftRows: a7be1a6997ad739bd8c9ca451f618b61
+Round 2 Post MixColumns: ff87968431d86a51645151fa773ad009
+Round 2 Post AddRoundKey (End): 4915598f55e5d7a0daca94fa1f0a63f7
+
+Round 3 Start: 4915598f55e5d7a0daca94fa1f0a63f7
+Round 3 Post SubBytes: 3b59cb73fcd90ee05774222dc067fb68
+Round 3 Post ShiftRows: 3bd92268fc74fb735767cbe0c0590e2d
+Round 3 Post MixColumns: 4c9c1e66f771f0762c3f868e534df256
+Round 3 Post AddRoundKey (End): fa636a2825b339c940668a3157244d17
+
+Round 4 Start: fa636a2825b339c940668a3157244d17
+Round 4 Post SubBytes: 2dfb02343f6d12dd09337ec75b36e3f0
+Round 4 Post ShiftRows: 2d6d7ef03f33e334093602dd5bfb12c7
+Round 4 Post MixColumns: 6385b79ffc538df997be478e7547d691
+Round 4 Post AddRoundKey (End): 247240236966b3fa6ed2753288425b6c
+
+Round 5 Start: 247240236966b3fa6ed2753288425b6c
+Round 5 Post SubBytes: 36400926f9336d2d9fb59d23c42c3950
+Round 5 Post ShiftRows: 36339d50f9b539269f2c092dc4406d23
+Round 5 Post MixColumns: f4bcd45432e554d075f1d6c51dd03b3c
+Round 5 Post AddRoundKey (End): c81677bc9b7ac93b25027992b0261996
+
+Round 6 Start: c81677bc9b7ac93b25027992b0261996
+Round 6 Post SubBytes: e847f56514dadde23f77b64fe7f7d490
+Round 6 Post ShiftRows: e8dab6901477d4653ff7f5e2e747dd4f
+Round 6 Post MixColumns: 9816ee7400f87f556b2c049c8e5ad036
+Round 6 Post AddRoundKey (End): c62fe109f75eedc3cc79395d84f9cf5d
+
+Round 7 Start: c62fe109f75eedc3cc79395d84f9cf5d
+Round 7 Post SubBytes: b415f8016858552e4bb6124c5f998a4c
+Round 7 Post ShiftRows: b458124c68b68a014b99f82e5f15554c
+Round 7 Post MixColumns: c57e1c159a9bd286f05f4be098c63439
+Round 7 Post AddRoundKey (End): d1876c0f79c4300ab45594add66ff41f
+
+Round 8 Start: d1876c0f79c4300ab45594add66ff41f
+Round 8 Post SubBytes: 3e175076b61c04678dfc2295f6a8bfc0
+Round 8 Post ShiftRows: 3e1c22c0b6fcbf768da85067f6170495
+Round 8 Post MixColumns: baa03de7a1f9b56ed5512cba5f414d23
+Round 8 Post AddRoundKey (End): fde3bad205e5d0d73547964ef1fe37f1
+
+Round 9 Start: fde3bad205e5d0d73547964ef1fe37f1
+Round 9 Post SubBytes: 5411f4b56bd9700e96a0902fa1bb9aa1
+Round 9 Post ShiftRows: 54d990a16ba09ab596bbf40ea111702f
+Round 9 Post MixColumns: e9f74eec023020f61bf2ccf2353c21c7
+Round 9 Post AddRoundKey (End): bd6e7c3df2b5779e0b61216e8b10b689
+
+Round 10 Start: bd6e7c3df2b5779e0b61216e8b10b689
+Round 10 Post SubBytes: 7a9f102789d5f50b2beffd9f3dca4ea7
+Round 10 Post ShiftRows: 7ad5fda789ef4e272bca100b3d9ff59f
+Round 10 Post AddRoundKey (Ciphertext): 69c4e0d86a7b0430d8cdb78070b4c55a
+
+--- DECRYPTION START ---
+Dec Round 10 Start (Ciphertext): 69c4e0d86a7b0430d8cdb78070b4c55a
+Dec Round 10 End (Post AddRoundKey): 7ad5fda789ef4e272bca100b3d9ff59f
+
+Dec Round 9 Start: 7ad5fda789ef4e272bca100b3d9ff59f
+Dec Round 9 Post InvShiftRows: 7a9f102789d5f50b2beffd9f3dca4ea7
+Dec Round 9 Post InvSubBytes: bd6e7c3df2b5779e0b61216e8b10b689
+Dec Round 9 Post AddRoundKey: e9f74eec023020f61bf2ccf2353c21c7
+Dec Round 9 Post InvMixColumns (End): 54d990a16ba09ab596bbf40ea111702f
+
+Dec Round 8 Start: 54d990a16ba09ab596bbf40ea111702f
+Dec Round 8 Post InvShiftRows: 5411f4b56bd9700e96a0902fa1bb9aa1
+Dec Round 8 Post InvSubBytes: fde3bad205e5d0d73547964ef1fe37f1
+Dec Round 8 Post AddRoundKey: baa03de7a1f9b56ed5512cba5f414d23
+Dec Round 8 Post InvMixColumns (End): 3e1c22c0b6fcbf768da85067f6170495
+
+Dec Round 7 Start: 3e1c22c0b6fcbf768da85067f6170495
+Dec Round 7 Post InvShiftRows: 3e175076b61c04678dfc2295f6a8bfc0
+Dec Round 7 Post InvSubBytes: d1876c0f79c4300ab45594add66ff41f
+Dec Round 7 Post AddRoundKey: c57e1c159a9bd286f05f4be098c63439
+Dec Round 7 Post InvMixColumns (End): b458124c68b68a014b99f82e5f15554c
+
+Dec Round 6 Start: b458124c68b68a014b99f82e5f15554c
+Dec Round 6 Post InvShiftRows: b415f8016858552e4bb6124c5f998a4c
+Dec Round 6 Post InvSubBytes: c62fe109f75eedc3cc79395d84f9cf5d
+Dec Round 6 Post AddRoundKey: 9816ee7400f87f556b2c049c8e5ad036
+Dec Round 6 Post InvMixColumns (End): e8dab6901477d4653ff7f5e2e747dd4f
+
+Dec Round 5 Start: e8dab6901477d4653ff7f5e2e747dd4f
+Dec Round 5 Post InvShiftRows: e847f56514dadde23f77b64fe7f7d490
+Dec Round 5 Post InvSubBytes: c81677bc9b7ac93b25027992b0261996
+Dec Round 5 Post AddRoundKey: f4bcd45432e554d075f1d6c51dd03b3c
+Dec Round 5 Post InvMixColumns (End): 36339d50f9b539269f2c092dc4406d23
+
+Dec Round 4 Start: 36339d50f9b539269f2c092dc4406d23
+Dec Round 4 Post InvShiftRows: 36400926f9336d2d9fb59d23c42c3950
+Dec Round 4 Post InvSubBytes: 247240236966b3fa6ed2753288425b6c
+Dec Round 4 Post AddRoundKey: 6385b79ffc538df997be478e7547d691
+Dec Round 4 Post InvMixColumns (End): 2d6d7ef03f33e334093602dd5bfb12c7
+
+Dec Round 3 Start: 2d6d7ef03f33e334093602dd5bfb12c7
+Dec Round 3 Post InvShiftRows: 2dfb02343f6d12dd09337ec75b36e3f0
+Dec Round 3 Post InvSubBytes: fa636a2825b339c940668a3157244d17
+Dec Round 3 Post AddRoundKey: 4c9c1e66f771f0762c3f868e534df256
+Dec Round 3 Post InvMixColumns (End): 3bd92268fc74fb735767cbe0c0590e2d
+
+Dec Round 2 Start: 3bd92268fc74fb735767cbe0c0590e2d
+Dec Round 2 Post InvShiftRows: 3b59cb73fcd90ee05774222dc067fb68
+Dec Round 2 Post InvSubBytes: 4915598f55e5d7a0daca94fa1f0a63f7
+Dec Round 2 Post AddRoundKey: ff87968431d86a51645151fa773ad009
+Dec Round 2 Post InvMixColumns (End): a7be1a6997ad739bd8c9ca451f618b61
+
+Dec Round 1 Start: a7be1a6997ad739bd8c9ca451f618b61
+Dec Round 1 Post InvShiftRows: a761ca9b97be8b45d8ad1a611fc97369
+Dec Round 1 Post InvSubBytes: 89d810e8855ace682d1843d8cb128fe4
+Dec Round 1 Post AddRoundKey: 5f72641557f5bc92f7be3b291db9f91a
+Dec Round 1 Post InvMixColumns (End): 6353e08c0960e104cd70b751bacad0e7
+
+Dec Round 0 Start: 6353e08c0960e104cd70b751bacad0e7
+Dec Round 0 Post InvShiftRows: 63cab7040953d051cd60e0e7ba70e18c
+Dec Round 0 Post InvSubBytes: 00102030405060708090a0b0c0d0e0f0
+Dec Round 0 Post AddRoundKey (Plaintext): 00112233445566778899aabbccddeeff
