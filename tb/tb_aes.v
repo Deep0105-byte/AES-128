@@ -50,6 +50,10 @@ module tb_aes;
     end
 
     initial begin
+        if ($test$plusargs("fsdb")) begin
+            $fsdbDumpfile("tb_aes.fsdb");
+            $fsdbDumpvars(0, tb_aes);
+        end
         // Initialize Inputs
         clk     = 0;
         rst     = 1;

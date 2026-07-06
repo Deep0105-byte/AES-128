@@ -153,6 +153,10 @@ module tb_aes_axi_wrapper;
     reg [127:0] result_plaintext;
 
     initial begin
+        if ($test$plusargs("fsdb")) begin
+            $fsdbDumpfile("tb_aes_axi_wrapper.fsdb");
+            $fsdbDumpvars(0, tb_aes_axi_wrapper);
+        end
         // Initialize Ports
         S_AXI_ACLK    = 0;
         S_AXI_ARESETN = 0;
